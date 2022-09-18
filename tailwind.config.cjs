@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange: "#F26A21"
+        orange: "#F26A21",
+        brown: "#905537"
       },
       fontFamily: {
         montserrat: ['montserrat', 'sans-serif']
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

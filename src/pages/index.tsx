@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Reviews from "../components/Reviews";
 import { FaBars } from "react-icons/fa";
 
 export default function Index() {
@@ -12,7 +13,7 @@ export default function Index() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main className="font-montserrat">
+      <main className="font-montserrat bg-[#f8f8f8]">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
             src="/images/hero.jpg"
@@ -72,6 +73,121 @@ export default function Index() {
               </div>
             </div>
           </div>
+
+          <div className="w-[325px] h-[275px] relative bg-[#000107] mx-4 mt-3 rounded-md">
+            <Image
+              src="/images/img_1.jpg"
+              layout="fill"
+              alt=""
+              style={{
+                backgroundColor: "rgba(0,0,0,0.1)",
+                opacity: 0.4,
+                overflow: "hidden",
+                // imageRendering: "crisp-edges",
+              }}
+            />
+
+            <div className="text-center absolute">
+              <h3 className="text-orange font-medium mt-5">
+                DESIGN THAT SPEAKS FOR YOU
+              </h3>
+              <p className="text-white mt-3 text-[15px]">
+                Transform your space from our breath-taking designs ranging from
+                furniture, metal-work, canvas, leather, and upholstery
+              </p>
+
+              <h3 className="text-white mt-2 text-[17px]">
+                We don&apos;t make,{" "}
+                <span className="text-orange">We build</span>
+              </h3>
+            </div>
+          </div>
+
+          <div className="w-[325px] h-[275px] text-center bg-[#f8f8f8] mx-4 mt-4 shadow-sm rounded-md border-[1px] border-slate-300">
+            <h3 className="font-medium pt-[2rem]">SHOW US YOUR STYLE</h3>
+            <p className="px-4 mt-5">
+              Have a dream office or house? Share with us your inspiration, what
+              you want to achieve and budget and leave the rest to us
+            </p>
+
+            <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
+              View More
+            </button>
+          </div>
+
+          <div className="w-[325px] h-[275px] text-center bg-[#f8f8f8] mx-4 mt-4 shadow-sm rounded-md border-[1px] border-slate-300">
+            <h3 className="font-medium pt-[2rem]">TRANSFORM YOUR SPACE</h3>
+            <p className="px-4 mt-5">
+              With our vast experience, we can handle different projects from
+              your dream home, office, together with lodges and hotels
+            </p>
+
+            <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
+              View More
+            </button>
+          </div>
+        </section>
+
+        <section className="mt-5">
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 rounded-box">
+            <div className="carousel-item w-[250px] h-[180px] relative">
+              <Image
+                src="/images/img_1.jpg"
+                alt=""
+                layout="fill"
+                className="rounded-box"
+                // style={{ imageRendering: "crisp-edges" }}
+              />
+            </div>
+            <div className="carousel-item w-[250px] h-[180px] relative">
+              <Image
+                src="/images/img2.jpg"
+                alt=""
+                layout="fill"
+                crisp-edges
+                className="rounded-box"
+                style={{ imageRendering: "crisp-edges" }}
+              />
+            </div>
+            <div className="carousel-item w-[250px] h-[180px] relative">
+              <Image
+                src="/images/img_1.jpg"
+                alt="hero"
+                layout="fill"
+                className="rounded-box"
+              />
+            </div>
+            <div className="carousel-item w-[250px] h-[180px] relative">
+              <Image
+                src="/images/img2.jpg"
+                alt=""
+                layout="fill"
+                className="rounded-box"
+              />
+            </div>
+            <div className="carousel-item w-[250px] h-[180px] relative">
+              <Image
+                src="/images/hero.jpg"
+                alt=""
+                layout="fill"
+                className="rounded-box"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="text-center">
+            <h3 className="text-sm">Keep Calm and Decorate</h3>
+            <p className="w-[240px] ml-[5rem] mt-2 text-[20px]">
+              Take a look at our breath-taking Works
+            </p>
+            <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
+              Our Work
+            </button>
+          </div>
+
+          <Reviews />
         </section>
       </main>
     </div>
