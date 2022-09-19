@@ -2,11 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FurnitureCard from "../../components/HomePage/FurnitureCard";
-
-import { titles } from "../../data/dummy";
 import NavBar from "../../components/HomePage/NavBar";
+import { interiorTitles, consultationTitles } from "../../data/dummy";
 
-export default function Furnitures() {
+const index = () => {
   return (
     <React.Fragment>
       <main className="font-montserrat">
@@ -42,8 +41,17 @@ export default function Furnitures() {
           </div>
         </section>
 
+        <div className="text-center  mt-4">
+          <h3 className="capitalize font-medium text-xl ">know us</h3>
+          <p className="mx-2 mt-2">
+            Our goal is to create a sense of layer & texture to your space,
+            providing you with Bespoke, Elevated & Artistic Interior/Exterior
+            Décor & Accessories.
+          </p>
+        </div>
+
         <section className="flex flex-col items-center mt-5 mb-[2rem]">
-          {titles.map((title) => {
+          {interiorTitles.map((title) => {
             return (
               <FurnitureCard
                 key={title.id}
@@ -64,7 +72,38 @@ export default function Furnitures() {
             We don&apos;t make, <span className="text-orange">We build.</span>
           </h3>
         </section>
+
+        <section>
+          <div className="w-full h-[200px] relative">
+            <Image src="/images/img_1.jpg" layout="fill" alt="" />
+            <div className="bg-orange text-white font-medium w-full h-[40px] absolute top-[80px] flex items-center justify-center">
+              <h3 className="">Saytech interiors services</h3>
+            </div>
+
+            <button className="bg-brown px-4 py-2 absolute rounded-md top-[130px] left-[20%] text-white">
+              Make your Appointment
+            </button>
+          </div>
+
+          <div className="flex flex-col items-center mb-[3rem]">
+            {consultationTitles.map((title) => {
+              return (
+                <FurnitureCard
+                  key={title.id}
+                  title={title.title}
+                  image={title.image}
+                  href={title.href}
+                />
+              );
+            })}
+            <h3 className="mt-4">
+              We don&apos;t make, <span className="text-orange">We build.</span>
+            </h3>
+          </div>
+        </section>
       </main>
     </React.Fragment>
   );
-}
+};
+
+export default index;
