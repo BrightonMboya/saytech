@@ -33,7 +33,7 @@ const office = () => {
             <NavBar />
           </div>
 
-          <div className="absolute mt-[20vh] ml-[20vw] h-[50px] w-[220px] bg-orange rounded-md flex items-center justify-center cursor-pointer">
+          <div className="absolute mt-[20vh] md:mt-0 ml-[20vw] md:ml-0 md:bottom-0 h-[50px] w-[220px] bg-orange rounded-md flex items-center justify-center cursor-pointer">
             <h3 className="text-white font-medium text-2xl">Office</h3>
           </div>
         </section>

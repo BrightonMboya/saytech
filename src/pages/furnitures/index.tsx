@@ -37,32 +37,37 @@ export default function Furnitures() {
             <NavBar />
           </div>
 
-          <div className="absolute mt-[20vh] ml-[20vw] h-[50px] w-[220px] bg-orange rounded-md flex items-center justify-center cursor-pointer">
+          <div className="absolute mt-[20vh] md:mt-0 ml-[20vw] md:ml-0 md:bottom-0 h-[50px] w-[220px] bg-orange rounded-md flex items-center justify-center cursor-pointer">
             <h3 className="text-white font-medium text-2xl">Furnitures</h3>
           </div>
         </section>
 
-        <section className="flex flex-col items-center mt-5 mb-[2rem]">
-          {titles.map((title) => {
-            return (
-              <FurnitureCard
-                key={title.id}
-                title={title.title}
-                image={title.image}
-                href={title.href}
-              />
-            );
-          })}
-          <button
-            className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
-            type="submit"
-          >
-            Place Your Order
-          </button>
+        <section className=" mt-5 mb-[2rem]">
+          <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] ">
+            {titles.map((title) => {
+              return (
+                <FurnitureCard
+                  key={title.id}
+                  title={title.title}
+                  image={title.image}
+                  href={title.href}
+                />
+              );
+            })}
+          </div>
 
-          <h3 className="mt-4">
-            We don&apos;t make, <span className="text-orange">We build.</span>
-          </h3>
+          <div className="flex flex-col items-center">
+            <button
+              className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
+              type="submit"
+            >
+              Place Your Order
+            </button>
+
+            <h3 className="mt-4">
+              We don&apos;t make, <span className="text-orange">We build.</span>
+            </h3>
+          </div>
         </section>
       </main>
     </React.Fragment>
