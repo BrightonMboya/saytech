@@ -39,8 +39,10 @@ const office = () => {
         </section>
 
         <div className="flex flex-col items-center mt-5">
-          <h3 className="uppercase font-medium">description</h3>
-          <p className="mx-4 tracking-wide text-justify">
+          <h3 className="uppercase font-medium md:text-lg md:tracking-loose">
+            description
+          </h3>
+          <p className="mx-4 md:text-center tracking-wide md:tracking-loose text-justify lg:max-w-xl">
             An office space should be equipped with certain elements to assure a
             good working flow, Furnish your work place with comfortable, stylish
             and custom options.
@@ -48,10 +50,10 @@ const office = () => {
         </div>
 
         <section>
-          <div className="carousel w-full mt-5">
+          <div className="carousel w-full md:max-w-[90vw] mt-5 md:flex md:items-center md:ml-[5vw]">
             <div
               id="slide1"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img_1.jpg" layout="fill" alt="" />
 
@@ -66,7 +68,7 @@ const office = () => {
             </div>
             <div
               id="slide2"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img2.jpg" layout="fill" alt="" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -80,7 +82,7 @@ const office = () => {
             </div>
             <div
               id="slide3"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img_1.jpg" layout="fill" alt="" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -94,7 +96,7 @@ const office = () => {
             </div>
             <div
               id="slide4"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img_1.jpg" layout="fill" alt="" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

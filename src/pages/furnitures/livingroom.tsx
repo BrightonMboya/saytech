@@ -45,8 +45,10 @@ const livingroom = () => {
         </section>
 
         <div className="flex flex-col items-center mt-5">
-          <h3 className="uppercase font-medium">description</h3>
-          <p className="mx-4 tracking-wide text-justify">
+          <h3 className="uppercase font-medium md:text-lg md:tracking-loose">
+            description
+          </h3>
+          <p className="mx-4 md:text-center tracking-wide md:tracking-loose text-justify lg:max-w-xl">
             Arguably the living room is the heart of a home, it should consist
             of depth and character. That&apos;s where our furnishings come in,
             providing you elegantly proportional furniture with great appearance
@@ -55,10 +57,10 @@ const livingroom = () => {
         </div>
 
         <section>
-          <div className="carousel w-full mt-5">
+          <div className="carousel w-full md:max-w-[90vw] mt-5 md:flex md:items-center md:ml-[5vw]">
             <div
               id="slide1"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img_1.jpg" layout="fill" alt="" />
 
@@ -73,7 +75,7 @@ const livingroom = () => {
             </div>
             <div
               id="slide2"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img2.jpg" layout="fill" alt="" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -87,7 +89,7 @@ const livingroom = () => {
             </div>
             <div
               id="slide3"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img_1.jpg" layout="fill" alt="" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -101,7 +103,7 @@ const livingroom = () => {
             </div>
             <div
               id="slide4"
-              className="carousel-item relative w-full h-[300px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
               <Image src="/images/img_1.jpg" layout="fill" alt="" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

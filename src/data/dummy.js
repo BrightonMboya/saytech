@@ -57,7 +57,7 @@ export const titles = [
 export const interiorTitles = [
     {
         id: 1,
-        title: 'basket',
+        title: 'decor',
         href: 'saytechInteriors/basket',
         image: "/images/img2.jpg"
     },
@@ -67,25 +67,25 @@ export const interiorTitles = [
         href: 'saytechInteriors/lampstand',
         image: "/images/img2.jpg"
     },
-    {
-        id: 3,
-        title: 'mirrors',
-        href: 'saytechInteriors/mirrors',
-        image: "/images/img2.jpg"
-    },
-    {
-        id: 4,
-        title: 'art work',
-        href: 'saytechInteriors/artwork',
-        image: "/images/img2.jpg"
-    },
+    // {
+    //     id: 3,
+    //     title: 'mirrors',
+    //     href: 'saytechInteriors/mirrors',
+    //     image: "/images/img2.jpg"
+    // },
+    // {
+    //     id: 4,
+    //     title: 'art work',
+    //     href: 'saytechInteriors/artwork',
+    //     image: "/images/img2.jpg"
+    // },
 
 ]
 
 export const consultationTitles = [
     {
         id: 1,
-        title: 'consultation',
+        title: 'consultations',
         href: 'saytechInteriors/consultation',
         image: '/images/img2.jpg'
     },
@@ -97,14 +97,14 @@ export const consultationTitles = [
     },
     {
         id: 3,
-        title: 'design service',
+        title: 'art work',
         href: 'saytechInteriors/consultation',
         image: '/images/img2.jpg'
     },
-    // {
-    //     id: 4,
-    //     title: 'consultation',
-    //     href: 'saytechInteriors/consultation',
-    //     image: 'images/img2.jpg'
-    // },
+    {
+        id: 4,
+        title: 'decor',
+        href: 'saytechInteriors/consultation',
+        image: '/images/img2.jpg'
+    },
 ]
