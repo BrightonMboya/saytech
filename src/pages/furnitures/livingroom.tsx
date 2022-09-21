@@ -62,7 +62,11 @@ const livingroom = () => {
               id="slide1"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
+                layout="fill"
+                alt=""
+              />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" className="text-orange text-3xl">
@@ -77,7 +81,11 @@ const livingroom = () => {
               id="slide2"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img2.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7092_v92dg8.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
                   ❮
@@ -91,7 +99,11 @@ const livingroom = () => {
               id="slide3"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7081_Edited_oim54a.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
                   ❮
@@ -105,7 +117,11 @@ const livingroom = () => {
               id="slide4"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757922/livingroom/IMG_7070_ymmxpo.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">
                   ❮

@@ -56,7 +56,11 @@ const kitchen = () => {
               id="slide1"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
+                layout="fill"
+                alt=""
+              />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" className="text-orange text-3xl">
@@ -71,7 +75,11 @@ const kitchen = () => {
               id="slide2"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img2.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7096_Edited_zdkyls.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
                   ❮
@@ -85,7 +93,11 @@ const kitchen = () => {
               id="slide3"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7082_Edited_acxcev.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
                   ❮
@@ -99,7 +111,11 @@ const kitchen = () => {
               id="slide4"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/6c573b71-1f9a-4688-a4f3-dfd9b56c1ae2-1_Edited_jugstn.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">
                   ❮

@@ -53,7 +53,7 @@ const index = () => {
         </div>
 
         <section className="mt-5 mb-[2rem]">
-          <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] ">
+          <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] xl:ml-[25vw]">
             {interiorTitles.map((title) => {
               return (
                 <FurnitureCard
@@ -81,19 +81,19 @@ const index = () => {
         </section>
 
         <section>
-          <div className="w-full md:w-[90vw] md:mx-[2rem] h-[200px] md:h-[350px] relative">
+          <div className="w-full md:w-[90vw] md:mx-[2rem] xl:mx-[5rem] h-[200px] md:h-[350px] relative">
             <Image src="/images/img_1.jpg" layout="fill" alt="" />
             <div className="bg-orange text-white font-medium w-full h-[40px] absolute top-[80px] md:top-[120px] flex items-center justify-center">
               <h3 className="">Saytech interiors services</h3>
             </div>
 
-            <button className="bg-brown px-4 py-2 absolute rounded-md top-[130px] md:top-[190px] left-[23%] md:left-[34%] text-white">
+            <button className="bg-brown px-4 py-2 absolute rounded-md top-[130px] md:top-[190px] left-[23%] md:left-[34%] xl:left-[40%] text-white">
               Make your Appointment
             </button>
           </div>
 
           <div className="mb-[3rem]">
-            <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] ">
+            <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] xl:ml-[25vw] ">
               {consultationTitles.map((title) => {
                 return (
                   <FurnitureCard

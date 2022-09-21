@@ -43,7 +43,7 @@ export default function Furnitures() {
         </section>
 
         <section className=" mt-5 mb-[2rem]">
-          <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] ">
+          <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] xl:ml-[25vw] ">
             {titles.map((title) => {
               return (
                 <FurnitureCard

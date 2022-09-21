@@ -55,10 +55,14 @@ const office = () => {
               id="slide1"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7093_jsymrc.jpg"
+                layout="fill"
+                alt=""
+              />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" className="text-orange text-3xl">
+                <a href="#slide5" className="text-orange text-3xl">
                   ❮
                 </a>
                 <a href="#slide2" className="text-orange text-3xl">
@@ -70,7 +74,11 @@ const office = () => {
               id="slide2"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img2.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7094_fjaiww.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
                   ❮
@@ -84,7 +92,11 @@ const office = () => {
               id="slide3"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
                   ❮
@@ -98,9 +110,32 @@ const office = () => {
               id="slide4"
               className="carousel-item relative w-full h-[300px] md:h-[400px]"
             >
-              <Image src="/images/img_1.jpg" layout="fill" alt="" />
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7095_qexl2h.jpg"
+                layout="fill"
+                alt=""
+              />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">
+                  ❮
+                </a>
+                <a href="#slide5" className="text-orange text-3xl">
+                  ❯
+                </a>
+              </div>
+            </div>
+
+            <div
+              id="slide4"
+              className="carousel-item relative w-full h-[300px] md:h-[400px]"
+            >
+              <Image
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7097_vgjosf.jpg"
+                layout="fill"
+                alt=""
+              />
+              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" className="text-orange text-3xl">
                   ❮
                 </a>
                 <a href="#slide1" className="text-orange text-3xl">

@@ -77,12 +77,12 @@ export default function Index() {
 
           <div className="w-[340px] md:w-[90vw] md:flex md:flex-col md:items-center h-[350px] relative bg-[#000107] mx-4 mt-3 md:mt-[3rem] rounded-md">
             <Image
-              src="/images/img_1.jpg"
+              src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663763711/office/design_that_speaks_for_you_etwdwu.jpg"
               layout="fill"
               alt=""
               style={{
                 backgroundColor: "rgba(0,0,0,0.1)",
-                opacity: 0.4,
+                opacity: 0.6,
                 overflow: "hidden",
               }}
               className="rounded-md"
