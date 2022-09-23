@@ -30,25 +30,25 @@ export const titles = [
         id: 1,
         title: "livingroom",
         href: "/furnitures/livingroom",
-        image: "/images/hero.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1663757922/livingroom/IMG_7070_ymmxpo.jpg"
     },
     {
         id: 2,
         title: "bedroom",
         href: "/furnitures/bedroom",
-        image: "/images/img_1.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762448/bedroom/IMG_7075_dafn3c.jpg"
     },
     {
         id: 3,
         title: "kitchen",
         href: "/furnitures/kitchen",
-        image: "/images/img2.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
     },
     {
         id:4,
         title: "Office",
         href: "/furnitures/office",
-        image: "/images/img_1.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7094_fjaiww.jpg"
     },
     
     
@@ -87,7 +87,7 @@ export const consultationTitles = [
         id: 1,
         title: 'consultations',
         href: 'saytechInteriors/consultation',
-        image: '/images/img2.jpg'
+        image: "/images/img2.jpg"
     },
     {
         id: 2,

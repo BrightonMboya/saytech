@@ -17,7 +17,7 @@ export default defineNextConfig({
   swcMinify: true,
   images: {
     domains: [
-      'drive.google.com',
+      'images.unsplash.com',
       'res.cloudinary.com'
     ],
   },

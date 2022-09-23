@@ -42,16 +42,31 @@ export default function Reviews() {
           action="https://getform.io/f/9995d4d6-9157-45cb-8bce-3faf6ea15093"
           className="flex flex-col md:flex-row items-center justify-center"
         >
-          <div className="hidden md:flex md:items-center md:justify-center ">
+          <div className="flex items-center justify-center">
             <div className="grid grid-cols-2 gap-0 md:gap-3 mt-[2rem] mx-4">
               <div className="relative h-[155px] w-[142px] ">
-                <Image src="/images/hero.jpg" alt="" layout="fill" />
+                <Image
+                  src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+                  alt=""
+                  layout="fill"
+                  className="rounded-md"
+                />
               </div>
               <div className="relative h-[320px] w-[142px]  row-span-2 mr-8">
-                <Image src="/images/img_1.jpg" alt="" layout="fill" />
+                <Image
+                  src="/images/img_1.jpg"
+                  alt=""
+                  layout="fill"
+                  className="rounded-md"
+                />
               </div>
               <div className="relative h-[155px] w-[142px] ">
-                <Image src="/images/hero.jpg" alt="" layout="fill" />
+                <Image
+                  src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
+                  alt=""
+                  layout="fill"
+                  className="rounded-md"
+                />
               </div>
             </div>
           </div>

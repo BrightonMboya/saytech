@@ -14,14 +14,16 @@ const livingroom = () => {
         </Head>
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="/images/hero.jpg"
+            src="https://images.unsplash.com/photo-1633330977020-2bdfb8530cc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGxpdmluZyUyMHJvb218ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             objectFit="cover"
             alt="hero"
+            quality={100}
             layout="fill"
             style={{
-              backgroundColor: "rgba(0,0,0,0.1)",
-              opacity: 0.6,
+              // backgroundColor: "rgba(0,0,0,0.1)",
+              // opacity: 0.8,
               overflow: "hidden",
+              imageRendering: "crisp-edges",
             }}
           />
           <div className="flex items-center justify-between mr-4 ">
@@ -48,7 +50,7 @@ const livingroom = () => {
           <h3 className="uppercase font-medium md:text-lg md:tracking-loose">
             description
           </h3>
-          <p className="mx-4 md:text-center tracking-wide md:tracking-loose text-justify lg:max-w-xl">
+          <p className="mx-4 md:text-center tracking-wide md:tracking-loose text-justify lg:text-center">
             Arguably the living room is the heart of a home, it should consist
             of depth and character. That&apos;s where our furnishings come in,
             providing you elegantly proportional furniture with great appearance
@@ -60,7 +62,7 @@ const livingroom = () => {
           <div className="carousel w-full md:max-w-[90vw] mt-5 md:flex md:items-center md:ml-[5vw]">
             <div
               id="slide1"
-              className="carousel-item relative w-full h-[300px] md:h-[400px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
@@ -79,7 +81,7 @@ const livingroom = () => {
             </div>
             <div
               id="slide2"
-              className="carousel-item relative w-full h-[300px] md:h-[400px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7092_v92dg8.jpg"
@@ -97,7 +99,7 @@ const livingroom = () => {
             </div>
             <div
               id="slide3"
-              className="carousel-item relative w-full h-[300px] md:h-[400px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7081_Edited_oim54a.jpg"
@@ -115,7 +117,7 @@ const livingroom = () => {
             </div>
             <div
               id="slide4"
-              className="carousel-item relative w-full h-[300px] md:h-[400px]"
+              className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757922/livingroom/IMG_7070_ymmxpo.jpg"

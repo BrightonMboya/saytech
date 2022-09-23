@@ -15,13 +15,13 @@ export default function Index() {
       <main className="font-montserrat bg-[#f8f8f8]">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="/images/hero.jpg"
+            src="https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
             objectFit="cover"
             alt="hero"
             layout="fill"
             style={{
               backgroundColor: "rgba(0,0,0,0.1)",
-              opacity: 0.6,
+              opacity: 0.8,
               overflow: "hidden",
             }}
           />
@@ -63,19 +63,34 @@ export default function Index() {
             <div className="flex items-center justify-center">
               <div className="grid grid-cols-2 gap-0 md:gap-3 mt-[2rem] mx-4">
                 <div className="relative h-[155px] w-[142px] ">
-                  <Image src="/images/hero.jpg" alt="" layout="fill" />
+                  <Image
+                    src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+                    alt=""
+                    layout="fill"
+                    className="rounded-md"
+                  />
                 </div>
                 <div className="relative h-[320px] w-[142px]  row-span-2 mr-8">
-                  <Image src="/images/img_1.jpg" alt="" layout="fill" />
+                  <Image
+                    src="/images/img_1.jpg"
+                    alt=""
+                    layout="fill"
+                    className="rounded-md"
+                  />
                 </div>
                 <div className="relative h-[155px] w-[142px] ">
-                  <Image src="/images/hero.jpg" alt="" layout="fill" />
+                  <Image
+                    src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
+                    alt=""
+                    layout="fill"
+                    className="rounded-md"
+                  />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="w-[340px] md:w-[90vw] md:flex md:flex-col md:items-center h-[350px] relative bg-[#000107] mx-4 mt-3 md:mt-[3rem] rounded-md">
+          <div className="w-[340px] md:w-[90vw] lg:w-[60vw] md:flex md:flex-col md:items-center h-[350px] lg:h-[450px] relative bg-[#000107] mx-4 mt-3 md:mt-[3rem] rounded-md">
             <Image
               src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663763711/office/design_that_speaks_for_you_etwdwu.jpg"
               layout="fill"
@@ -110,7 +125,7 @@ export default function Index() {
           </div>
 
           <div className="md:flex md:items-center md:justify-center md:mt-[2rem]">
-            <div className="w-[325px] h-[275px] text-center bg-[#f8f8f8] mx-4 mt-4 shadow-sm rounded-md border-[1px] border-slate-300">
+            <div className="w-[325px] h-[323px] text-center bg-[#f8f8f8] mx-4 mt-4 shadow-sm rounded-md border-[1px] border-slate-300">
               <h3 className="font-medium pt-[2rem]">SHOW US YOUR STYLE</h3>
               <p className="mt-5">
                 Walk us through your architectural space, we look forward to
@@ -119,13 +134,13 @@ export default function Index() {
               </p>
 
               <Link href="/furnitures">
-                <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
+                <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 md:mt-[66px] cursor-pointer">
                   View More
                 </button>
               </Link>
             </div>
 
-            <div className="w-[325px] h-full text-center bg-[#f8f8f8] mx-4 mt-4 shadow-sm rounded-md border-[1px] border-slate-300 pb-5">
+            <div className="w-[325px] h-[323px] text-center bg-[#f8f8f8] mx-4 mt-4 shadow-sm rounded-md border-[1px] border-slate-300 pb-5">
               <h3 className="font-medium pt-[2rem]">TRANSFORM YOUR SPACE</h3>
               <p className="mt-5 mx-2">
                 Focusing more on the functionality of a space but also adding
@@ -141,11 +156,11 @@ export default function Index() {
           </div>
         </section>
 
-        <section className="mt-5">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 rounded-box md:flex md:items-center md:justify-center md:max-w-full md:mx-4">
+        <section className="mt-5 flex items-center justify-center">
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 rounded-box md:max-w-full md:mx-4 lg:mx-[10rem]">
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="/images/img_1.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -153,7 +168,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="/images/img2.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/008d5ee1-a5da-4bfb-996a-bbbb39e67c34_m0uor2.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -161,7 +176,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="/images/img_1.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
                 alt="hero"
                 layout="fill"
                 className="rounded-box"
@@ -169,7 +184,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="/images/img2.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -177,7 +192,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="/images/hero.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -191,7 +206,7 @@ export default function Index() {
             <h3 className="text-sm md:text-lg font-medium">
               Keep Calm and Decorate
             </h3>
-            <p className="w-[240px] md:w-full ml-[5rem] md:ml-0 md:text-center mt-2 text-[20px]">
+            <p className="flex items-center justify-center md:w-full md:ml-0 md:text-center mt-2 text-[20px]">
               Take a look at our breath-taking Works
             </p>
             <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">

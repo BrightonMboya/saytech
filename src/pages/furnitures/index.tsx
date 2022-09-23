@@ -12,7 +12,7 @@ export default function Furnitures() {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="/images/hero.jpg"
+            src="https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
             objectFit="cover"
             alt="hero"
             layout="fill"
