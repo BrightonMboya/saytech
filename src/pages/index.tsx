@@ -149,9 +149,11 @@ export default function Index() {
                 choose from.
               </p>
 
-              <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
-                View More
-              </button>
+              <Link href="/services">
+                <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
+                  View More
+                </button>
+              </Link>
             </div>
           </div>
         </section>

@@ -61,6 +61,33 @@ export const titles = [
     
 ]
 
+export const services = [
+    {
+        id: 1,
+        title: 'construction',
+        href: '/services/construction',
+        image: 'https://images.unsplash.com/photo-1593786267440-550458cc882a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'
+    },
+    {
+        id: 2,
+        title: "upholstery",
+        href: "/services/upholstery",
+        image: "https://images.unsplash.com/photo-1517858818796-d31fc694c92a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+        id: 3,
+        title: "maintainance",
+        href: "/services/maintainance",
+        image: 'https://images.unsplash.com/photo-1567507145544-da3fe1b4f8f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+    },
+    {
+        id: 4, 
+        title: "installation",
+        href: "/services/installation",
+        image: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    }
+]
+
 export const interiorTitles = [
     {
         id: 1,
