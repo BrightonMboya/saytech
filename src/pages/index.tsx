@@ -60,7 +60,7 @@ export default function Index() {
               </p>
             </div>
 
-            <div className="flex items-center justify-center">
+            <div className="hidden md:flex md:items-center md:justify-center">
               <div className="grid grid-cols-2 gap-0 md:gap-3 mt-[2rem] mx-4">
                 <div className="relative h-[155px] w-[142px] ">
                   <Image

@@ -50,6 +50,13 @@ export const titles = [
         href: "/furnitures/office",
         image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7094_fjaiww.jpg"
     },
+
+    {
+        id:5,
+        title: "dining room",
+        href: "/furnitures/dining",
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7094_fjaiww.jpg"
+    },
     
     
 ]
