@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { string } from "zod";
 import Link from "next/link";
 
 interface Props {

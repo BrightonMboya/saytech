@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReviewCard from "./HomePage/ReviewCard";
 import Image from "next/image";
 // import reviews from "../data/dummy";
