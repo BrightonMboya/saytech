@@ -1,11 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 import NavBar from "../../components/HomePage/NavBar";
 
 const kitchen = () => {
   return (
     <React.Fragment>
+      <Head>
+        <title>SayTech Furnitures</title>
+        <meta name="description" content="Best and quality furnitures" />
+      </Head>
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
@@ -60,6 +65,7 @@ const kitchen = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -79,6 +85,7 @@ const kitchen = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7096_Edited_zdkyls.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
@@ -97,6 +104,7 @@ const kitchen = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7082_Edited_acxcev.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
@@ -115,6 +123,7 @@ const kitchen = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/6c573b71-1f9a-4688-a4f3-dfd9b56c1ae2-1_Edited_jugstn.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">

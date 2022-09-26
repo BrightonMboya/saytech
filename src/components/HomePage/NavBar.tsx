@@ -13,7 +13,7 @@ const NavBar = () => {
     <div>
       <div className="absolute right-2 cursor-pointer">
         {showNavBar ? (
-          <FaTimes size={25} fill="#fff" onClick={handleShowNavBar} />
+          ""
         ) : (
           <FaBars size={25} fill="#fff" onClick={handleShowNavBar} />
         )}

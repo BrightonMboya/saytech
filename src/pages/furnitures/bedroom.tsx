@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import { FaBars } from "react-icons/fa";
 import NavBar from "../../components/HomePage/NavBar";
 
 const bedroom = () => {
@@ -68,6 +67,7 @@ const bedroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -87,6 +87,7 @@ const bedroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762448/bedroom/IMG_7075_dafn3c.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
@@ -105,6 +106,7 @@ const bedroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/IMG_7076_p9qjry.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
@@ -123,6 +125,7 @@ const bedroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762446/bedroom/IMG_7074_caenna.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">

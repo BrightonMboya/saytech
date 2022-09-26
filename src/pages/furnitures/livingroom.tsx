@@ -68,6 +68,7 @@ const livingroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -87,6 +88,7 @@ const livingroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7092_v92dg8.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
@@ -105,6 +107,7 @@ const livingroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7081_Edited_oim54a.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
@@ -123,6 +126,7 @@ const livingroom = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757922/livingroom/IMG_7070_ymmxpo.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">

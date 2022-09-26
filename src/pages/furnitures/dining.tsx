@@ -1,10 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 import NavBar from "../../components/HomePage/NavBar";
 const dining = () => {
   return (
     <React.Fragment>
+      <Head>
+        <title>SayTech Furnitures</title>
+        <meta name="description" content="Best and quality furnitures" />
+      </Head>
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
@@ -34,7 +39,7 @@ const dining = () => {
           </div>
 
           <div className="absolute mt-[20vh] md:mt-0 ml-[20vw] md:ml-0 md:bottom-0 h-[50px] w-[220px] bg-orange rounded-md flex items-center justify-center cursor-pointer">
-            <h3 className="text-white font-medium text-2xl">Office</h3>
+            <h3 className="text-white font-medium text-2xl">Dining</h3>
           </div>
         </section>
 
@@ -60,6 +65,7 @@ const dining = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023616/office/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_jyhoh4.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
 
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -79,6 +85,7 @@ const dining = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023616/office/IMG_7046_Edited_v8e2xz.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="text-orange text-3xl">
@@ -97,6 +104,7 @@ const dining = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023616/office/IMG_7073_Edited_bvkkwi.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="text-orange text-3xl">
@@ -115,6 +123,7 @@ const dining = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023614/office/IMG_7045_Edited_uai93s.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="text-orange text-3xl">
@@ -134,6 +143,7 @@ const dining = () => {
                 src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023613/office/IMG_7045_Edited_ilo28c.jpg"
                 layout="fill"
                 alt=""
+                objectFit="cover"
               />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" className="text-orange text-3xl">

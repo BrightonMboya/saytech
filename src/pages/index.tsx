@@ -68,14 +68,16 @@ export default function Index() {
                     alt=""
                     layout="fill"
                     className="rounded-md"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="relative h-[320px] w-[142px]  row-span-2 mr-8">
                   <Image
-                    src="/images/img_1.jpg"
+                    src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7087_a2bsz5.jpg"
                     alt=""
                     layout="fill"
                     className="rounded-md"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="relative h-[155px] w-[142px] ">
@@ -84,6 +86,8 @@ export default function Index() {
                     alt=""
                     layout="fill"
                     className="rounded-md"
+                    objectFit="cover"
+                    style={{ imageRendering: "crisp-edges" }}
                   />
                 </div>
               </div>

@@ -93,13 +93,13 @@ export const interiorTitles = [
         id: 1,
         title: 'decor',
         href: 'saytechInteriors/basket',
-        image: "/images/img2.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1664187774/office/photo-1540730930991-a9286a5f5020_vk3i0l.jpg"
     },
     {
         id: 2,
         title: 'lamp stand',
         href: 'saytechInteriors/lampstand',
-        image: "/images/img2.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1664187838/office/photo-1517991104123-1d56a6e81ed9_c5gp66.jpg"
     },
     // {
     //     id: 3,
@@ -121,7 +121,7 @@ export const consultationTitles = [
         id: 1,
         title: 'consultations',
         href: 'saytechInteriors/consultation',
-        image: "/images/img2.jpg"
+        image: "https://res.cloudinary.com/dhhcantbj/image/upload/v1664188147/office/photo-1573496782646-e8d943a4bdd1_iyseif.jpg"
     },
     {
         id: 2,
@@ -133,12 +133,12 @@ export const consultationTitles = [
         id: 3,
         title: 'art work',
         href: 'saytechInteriors/consultation',
-        image: '/images/img2.jpg'
+        image: 'https://res.cloudinary.com/dhhcantbj/image/upload/v1664188002/office/photo-1544967082-d9d25d867d66_k6wjqd.jpg'
     },
     {
         id: 4,
         title: 'decor',
         href: 'saytechInteriors/consultation',
-        image: '/images/img2.jpg'
+        image: 'https://res.cloudinary.com/dhhcantbj/image/upload/v1664187774/office/photo-1540730930991-a9286a5f5020_vk3i0l.jpg'
     },
 ]
