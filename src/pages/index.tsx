@@ -178,7 +178,7 @@ export default function Index() {
         </section>
 
         <section className="pb-5">
-          <div className="text-center md:mt-[2rem]">
+          {/* <div className="text-center md:mt-[2rem]">
             <h3 className="text-sm md:text-lg font-medium">
               Keep Calm and Decorate
             </h3>
@@ -188,7 +188,7 @@ export default function Index() {
             <button className="bg-brown px-3 py-2 rounded-md text-white font-medium mt-4 cursor-pointer">
               Our Work
             </button>
-          </div>
+          </div> */}
 
           <Reviews />
         </section>
