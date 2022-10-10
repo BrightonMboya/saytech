@@ -14,7 +14,7 @@ const livingroom = () => {
         </Head>
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://images.unsplash.com/photo-1633330977020-2bdfb8530cc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGxpdmluZyUyMHJvb218ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7060_zdicff.jpg"
             objectFit="cover"
             alt="hero"
             quality={100}
@@ -141,12 +141,14 @@ const livingroom = () => {
         </section>
 
         <div className="flex flex-col items-center mb-[4rem]">
-          <button
-            className="rounded-md px-3 py-2 text-white font-medium bg-brown mt-[2rem]  border-none"
-            type="submit"
-          >
-            Place Your Order
-          </button>
+          <Link href="/contact">
+            <button
+              className="rounded-md px-3 py-2 text-white font-medium bg-brown mt-[2rem]  border-none"
+              type="submit"
+            >
+              Contact Us
+            </button>
+          </Link>
 
           <h3 className="mt-4">
             We don&apos;t make, <span className="text-orange">We build.</span>

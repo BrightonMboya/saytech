@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Reviews from "../components/Reviews";
-import NavBar from "../components/HomePage/NavBar";
+import HeroImage from "../components/HomePage/HeroImage";
 export default function Index() {
   return (
     <div className="">
@@ -13,37 +13,7 @@ export default function Index() {
       </Head>
 
       <main className="font-montserrat bg-[#f8f8f8]">
-        <section className="h-[50vh] relative bg-[#000107]">
-          <Image
-            src="https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
-            objectFit="cover"
-            alt="hero"
-            layout="fill"
-            style={{
-              backgroundColor: "rgba(0,0,0,0.1)",
-              opacity: 0.8,
-              overflow: "hidden",
-            }}
-          />
-          <div className="flex items-center justify-between mr-4 ">
-            <div className="w-[176px] h-[66px] relative">
-              <Image
-                src="/images/logo.svg"
-                layout="fill"
-                alt="logo"
-                quality={100}
-              />
-            </div>
-
-            <NavBar />
-          </div>
-
-          <div className="absolute mt-[20vh] md:mt-0 ml-[25vw] md:ml-0 md:bottom-[2rem] left-[1rem]">
-            <h3 className="text-2xl text-white">We don&apos;t make,</h3>
-            <h3 className="text-orange font-medium text-5xl">We build.</h3>
-          </div>
-        </section>
-
+        <HeroImage />
         <section className="mt-3 md:mt-[2.5rem] flex flex-col items-center">
           <div className="md:flex md:items-center md:justify-center md:gap-3">
             <div>

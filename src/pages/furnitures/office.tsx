@@ -13,7 +13,7 @@ const office = () => {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwZnVybml0dXJlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
@@ -157,12 +157,14 @@ const office = () => {
         </section>
 
         <div className="flex flex-col items-center mb-[4rem]">
-          <button
-            className="rounded-md px-3 py-2 text-white font-medium bg-brown mt-[2rem]  border-none"
-            type="submit"
-          >
-            Place Your Order
-          </button>
+          <Link href="/contact">
+            <button
+              className="rounded-md px-3 py-2 text-white font-medium bg-brown mt-[2rem]  border-none"
+              type="submit"
+            >
+              Contact Us
+            </button>
+          </Link>
 
           <h3 className="mt-4">
             We don&apos;t make, <span className="text-orange">We build.</span>

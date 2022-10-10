@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import NavBar from "../../components/HomePage/NavBar";
+import HeroImage from "../../components/HomePage/HeroImage";
 
 const bedroom = () => {
   return (
@@ -14,7 +15,7 @@ const bedroom = () => {
         </Head>
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663852454/office/photo-1598928636135-d146006ff4be_eeovm7.jpg"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
@@ -64,7 +65,7 @@ const bedroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/IMG_7076_p9qjry.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -103,7 +104,7 @@ const bedroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/IMG_7076_p9qjry.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -140,12 +141,14 @@ const bedroom = () => {
         </section>
 
         <div className="flex flex-col items-center mb-[4rem]">
-          <button
-            className="rounded-md px-3 py-2 text-white font-medium bg-brown mt-[2rem]  border-none"
-            type="submit"
-          >
-            Place Your Order
-          </button>
+          <Link href="/contact">
+            <button
+              className="rounded-md px-3 py-2 text-white font-medium bg-brown mt-[2rem]  border-none"
+              type="submit"
+            >
+              Contact Us
+            </button>
+          </Link>
 
           <h3 className="mt-4">
             We don&apos;t make, <span className="text-orange">We build.</span>

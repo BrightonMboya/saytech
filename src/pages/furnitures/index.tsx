@@ -12,13 +12,13 @@ export default function Furnitures() {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023614/office/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_b1zg7q.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
             style={{
-              backgroundColor: "rgba(0,0,0,0.1)",
-              opacity: 0.6,
+              // backgroundColor: "rgba(0,0,0,0.1)",
+              // opacity: 0.6,
               overflow: "hidden",
             }}
           />
@@ -57,12 +57,14 @@ export default function Furnitures() {
           </div>
 
           <div className="flex flex-col items-center">
-            <button
-              className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
-              type="submit"
-            >
-              Place Your Order
-            </button>
+            <Link href="/contact">
+              <button
+                className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
+                type="submit"
+              >
+                Contact Us
+              </button>
+            </Link>
 
             <h3 className="mt-4">
               We don&apos;t make, <span className="text-orange">We build.</span>

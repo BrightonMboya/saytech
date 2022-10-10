@@ -19,13 +19,13 @@ const index = () => {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="/images/hero.jpg"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023613/office/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_t0han8.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
             style={{
-              backgroundColor: "rgba(0,0,0,0.1)",
-              opacity: 0.6,
+              // backgroundColor: "rgba(0,0,0,0.1)",
+              // opacity: 0.6,
               overflow: "hidden",
             }}
           />
@@ -62,36 +62,8 @@ const index = () => {
           </p>
         </div>
 
-        <section className="mt-5 mb-[2rem]">
-          <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[19vw] xl:ml-[25vw]">
-            {interiorTitles.map((title) => {
-              return (
-                <FurnitureCard
-                  key={title.id}
-                  title={title.title}
-                  image={title.image}
-                  href={title.href}
-                />
-              );
-            })}
-          </div>
-
-          <div className="flex flex-col items-center ">
-            <button
-              className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
-              type="submit"
-            >
-              Place Your Order
-            </button>
-
-            <h3 className="mt-4">
-              We don&apos;t make, <span className="text-orange">We build.</span>
-            </h3>
-          </div>
-        </section>
-
         <section>
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <div className="bg-[rgba(0,0,0,0.7)] w-full md:w-[90vw] lg:w-[75vw] xl:w-[65vw] md:mx-[2rem] xl:mx-[5rem] h-[200px] md:h-[350px] relative lg:aspect-square">
               <Image
                 src="/images/img_1.jpg"
@@ -109,7 +81,7 @@ const index = () => {
                 Make your Appointment
               </button>
             </div>
-          </div>
+          </div> */}
 
           <div className="mb-[3rem]">
             <div className="flex flex-col items-center md:grid md:grid-cols-2 md:mx-6 md:max-w-[50rem] lg:max-w-[45rem] md:ml-[10vw] lg:ml-[15vw] xl:ml-[25vw] ">
@@ -124,7 +96,18 @@ const index = () => {
                 );
               })}
             </div>
-            <h3 className="mt-4 flex flex-col items-center justify-center">
+          </div>
+        </section>
+        <section className="mt-5 mb-[2rem]">
+          <div className="flex flex-col items-center justify-center ">
+            <button
+              className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
+              type="submit"
+            >
+              Contact Us
+            </button>
+
+            <h3 className="mt-4">
               We don&apos;t make, <span className="text-orange">We build.</span>
             </h3>
           </div>
