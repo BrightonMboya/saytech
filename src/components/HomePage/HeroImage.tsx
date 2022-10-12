@@ -5,7 +5,7 @@ const HeroImage = () => {
   return (
     <section className="h-[100vh] relative bg-gradient-to-t from-[#0f2027] via-[#4c7f91] to-[#2c5364]">
       <div className="flex items-center justify-between mr-4 ">
-        <div className="w-[176px] h-[66px] relative">
+        <div className="w-[176px] h-[66px] relative opacity-0">
           <Image
             src="/images/logo.svg"
             layout="fill"
@@ -37,8 +37,11 @@ const HeroImage = () => {
           <div className="absolute top-[35%] w-60 h-60 bg-orange rounded-full filter blur opacity-10 animate-blob animation-delay-2000 mix-blend-multiply" />
           <div className="absolute top-[30%] -right-[0%] md:right-[20%] xl:right-[25%] 2xl:right-[33%] w-60 h-60 bg-pink-300 rounded-full  filter blur opacity-5 animate-blob animation-delay-4000 " />
         </div>
-        <h3 className="text-2xl text-white">We don&apos;t make,</h3>
-        <h3 className="text-orange font-medium text-5xl">We build.</h3>
+        {/* <h3 className="text-2xl text-white">We don&apos;t make,</h3>
+        <h3 className="text-orange font-medium text-5xl">We build.</h3> */}
+        <h3 className="tracking-wide uppercase font-medium text-2xl md:text-3xl">
+          wood & metal works
+        </h3>
       </div>
     </section>
   );
