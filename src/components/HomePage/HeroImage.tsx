@@ -24,7 +24,7 @@ const HeroImage = () => {
       </div> */}
 
       <div className="relative flex flex-col items-center justify-center h-[80vh]">
-        <div className="w-[250px] h-[150px] relative">
+        <div className="w-[250px] h-[100px] relative">
           <Image
             src="/images/logo.svg"
             layout="fill"
@@ -39,7 +39,7 @@ const HeroImage = () => {
         </div>
         {/* <h3 className="text-2xl text-white">We don&apos;t make,</h3>
         <h3 className="text-orange font-medium text-5xl">We build.</h3> */}
-        <h3 className="tracking-wide uppercase font-medium text-2xl md:text-3xl">
+        <h3 className="tracking-wide uppercase font-medium text-2xl md:text-3xl text-slate-900">
           wood & metal works
         </h3>
       </div>

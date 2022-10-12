@@ -8,7 +8,7 @@ export default function ReviewCard() {
       {reviews.map((review) => {
         return (
           <div
-            className="bg-[#f0f0f0] w-[300px] h-full rounded-md"
+            className="bg-[#f0f0f0] w-[300px] h-full rounded-md mt-2"
             key={review.id}
           >
             <div className="flex items-center pt-4 pl-3">
