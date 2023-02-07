@@ -15,7 +15,7 @@ const bedroom = () => {
         </Head>
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761470/saytech/bedroom/IMG_7076_dkje6h.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
@@ -65,7 +65,7 @@ const bedroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/IMG_7076_p9qjry.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761471/saytech/bedroom/11c79169-f4df-4d47-b689-abbf6beb4365_t0r46v.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -85,7 +85,7 @@ const bedroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762448/bedroom/IMG_7075_dafn3c.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761470/saytech/bedroom/IMG_7076_dkje6h.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -104,7 +104,7 @@ const bedroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761471/saytech/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_dk5ful.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -123,7 +123,7 @@ const bedroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762446/bedroom/IMG_7074_caenna.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761471/saytech/bedroom/IMG_7075_gkwp4m.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"

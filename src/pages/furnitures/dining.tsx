@@ -13,7 +13,7 @@ const dining = () => {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwZnVybml0dXJlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761473/saytech/dinning/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_rkhi3d.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
@@ -62,7 +62,7 @@ const dining = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023616/office/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_jyhoh4.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761474/saytech/dinning/IMG_7045_Edited_endbhm.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -82,7 +82,7 @@ const dining = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023616/office/IMG_7046_Edited_v8e2xz.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761473/saytech/dinning/IMG_7086_Edited_moagfv.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -101,7 +101,7 @@ const dining = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023616/office/IMG_7073_Edited_bvkkwi.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761474/saytech/dinning/IMG_7077_Edited_uygo1t.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -120,7 +120,7 @@ const dining = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023614/office/IMG_7045_Edited_uai93s.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761474/saytech/dinning/IMG_7078_Edited_lpege4.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -140,7 +140,7 @@ const dining = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1664023613/office/IMG_7045_Edited_ilo28c.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761473/saytech/dinning/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_rkhi3d.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"

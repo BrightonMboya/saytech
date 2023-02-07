@@ -14,7 +14,7 @@ const kitchen = () => {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/kitchen/IMG_7083_Edited_dowjzh.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
@@ -62,7 +62,7 @@ const kitchen = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761475/saytech/kitchen/6c573b71-1f9a-4688-a4f3-dfd9b56c1ae2-1_Edited_zjcfds.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -82,7 +82,7 @@ const kitchen = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7096_Edited_zdkyls.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/kitchen/IMG_7083_Edited_dowjzh.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -101,7 +101,7 @@ const kitchen = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7082_Edited_acxcev.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761475/saytech/kitchen/IMG_7082_Edited_vds4xu.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -120,7 +120,7 @@ const kitchen = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/6c573b71-1f9a-4688-a4f3-dfd9b56c1ae2-1_Edited_jugstn.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/kitchen/IMG_7088_Edited_uay9u6.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"

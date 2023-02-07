@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +13,7 @@ export default function Index() {
 
       <main className="font-montserrat bg-[#f8f8f8]">
         <HeroImage />
-        <section className="mt-3 md:mt-[2.5rem] flex flex-col items-center">
+        <section className="mt-5 md:mt-[2.5rem] flex flex-col items-center">
           <div className="md:flex md:items-center md:justify-center md:gap-3">
             <div>
               <h3 className="text-center md:text-left text-xl font-medium">
@@ -34,7 +33,7 @@ export default function Index() {
               <div className="grid grid-cols-2 gap-0 md:gap-3 mt-[2rem] mx-4">
                 <div className="relative h-[155px] w-[142px] ">
                   <Image
-                    src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+                    src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761473/saytech/dinning/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_rkhi3d.jpg"
                     alt=""
                     layout="fill"
                     className="rounded-md"
@@ -66,12 +65,12 @@ export default function Index() {
 
           <div className="w-[340px] md:w-[90vw] lg:w-[60vw] md:flex md:flex-col md:items-center h-[350px] lg:h-[450px] relative bg-[#000107] mx-4 mt-3 md:mt-[3rem] rounded-md">
             <Image
-              src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663763711/office/design_that_speaks_for_you_etwdwu.jpg"
+              src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761473/saytech/dinning/bb406399-9d39-4abc-b9e0-77fed138b2bd_Edited_rkhi3d.jpg"
               layout="fill"
               alt=""
               style={{
                 backgroundColor: "rgba(0,0,0,0.1)",
-                opacity: 0.6,
+                opacity: 0.3,
                 overflow: "hidden",
               }}
               className="rounded-md"
@@ -136,7 +135,7 @@ export default function Index() {
           <div className="carousel carousel-center max-w-md p-4 space-x-4 rounded-box md:max-w-full md:mx-4 lg:mx-[10rem]">
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/living%20room/IMG_7089_puoyef.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -144,7 +143,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/008d5ee1-a5da-4bfb-996a-bbbb39e67c34_m0uor2.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761479/saytech/office/IMG_7091_fomslp.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -152,7 +151,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762447/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_jnhbvg.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761472/saytech/dinning/IMG_7046_Edited_qrkbcu.jpg"
                 alt="hero"
                 layout="fill"
                 className="rounded-box"
@@ -160,7 +159,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/kitchen/IMG_7088_Edited_uay9u6.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -168,7 +167,7 @@ export default function Index() {
             </div>
             <div className="carousel-item w-[250px] h-[180px] relative">
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761470/saytech/bedroom/IMG_7076_dkje6h.jpg"
                 alt=""
                 layout="fill"
                 className="rounded-box"
@@ -192,6 +191,20 @@ export default function Index() {
 
           <Reviews />
         </section>
+        <div className="flex flex-col items-center pb-5">
+          <Link href="/contact">
+            <button
+              className="bg-brown mt-5 border-none text-white font-medium py-2 px-3 rounded-md cursor-pointer"
+              type="submit"
+            >
+              Contact us
+            </button>
+          </Link>
+
+          <h3 className="mt-4">
+            We don&apos;t make, <span className="text-orange">We build.</span>
+          </h3>
+        </div>
       </main>
     </div>
   );

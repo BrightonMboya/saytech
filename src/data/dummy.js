@@ -34,28 +34,28 @@ export const titles = [
     title: "livingroom",
     href: "/furnitures/livingroom",
     image:
-      "https://res.cloudinary.com/dhhcantbj/image/upload/v1663757922/livingroom/IMG_7070_ymmxpo.jpg",
+      "https://res.cloudinary.com/dhhcantbj/image/upload/v1675761477/saytech/living%20room/IMG_7069_ogcolr.jpg",
   },
   {
     id: 2,
     title: "bedroom",
     href: "/furnitures/bedroom",
     image:
-      "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762448/bedroom/IMG_7075_dafn3c.jpg",
+      "https://res.cloudinary.com/dhhcantbj/image/upload/v1675761471/saytech/bedroom/151a7291-4a68-4b21-a64c-a2701b810a9e_dk5ful.jpg",
   },
   {
     id: 3,
     title: "kitchen",
     href: "/furnitures/kitchen",
     image:
-      "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762682/kitchen/IMG_7088_Edited_j0zy7u.jpg",
+      "https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/kitchen/IMG_7088_Edited_uay9u6.jpg",
   },
   {
     id: 4,
     title: "Office",
     href: "/furnitures/office",
     image:
-      "https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7094_fjaiww.jpg",
+      "https://res.cloudinary.com/dhhcantbj/image/upload/v1675761479/saytech/office/IMG_7091_fomslp.jpg",
   },
 
   {
@@ -63,7 +63,7 @@ export const titles = [
     title: "dining room",
     href: "/furnitures/dining",
     image:
-      "https://res.cloudinary.com/dhhcantbj/image/upload/v1664023613/office/IMG_7077_Edited_jxobqs.jpg",
+      "https://res.cloudinary.com/dhhcantbj/image/upload/v1675761473/saytech/dinning/IMG_7098_Edited_ik7vuf.jpg",
   },
 ];
 

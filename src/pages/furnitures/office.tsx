@@ -13,7 +13,7 @@ const office = () => {
       <main className="font-montserrat">
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761479/saytech/office/IMG_7091_fomslp.jpg"
             objectFit="cover"
             alt="hero"
             layout="fill"
@@ -61,7 +61,7 @@ const office = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7093_jsymrc.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761480/saytech/office/IMG_7095_yzlpvk.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -81,7 +81,7 @@ const office = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7094_fjaiww.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761480/saytech/office/IMG_7097_ndbcnh.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -100,7 +100,7 @@ const office = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7091_wwuc99.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761480/saytech/office/IMG_7093_lcljht.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -139,7 +139,7 @@ const office = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] lg:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663762962/office/IMG_7097_vgjosf.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761480/saytech/office/IMG_7094_gmegut.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"

@@ -14,7 +14,7 @@ const livingroom = () => {
         </Head>
         <section className="h-[50vh] relative bg-[#000107]">
           <Image
-            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7060_zdicff.jpg"
+            src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/living%20room/IMG_7089_puoyef.jpg"
             objectFit="cover"
             alt="hero"
             quality={100}
@@ -65,7 +65,7 @@ const livingroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757921/livingroom/IMG_7089_id2el4.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761478/saytech/living%20room/IMG_7068_zcveny.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -85,7 +85,7 @@ const livingroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7092_v92dg8.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761477/saytech/living%20room/IMG_7069_ogcolr.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -104,7 +104,7 @@ const livingroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757923/livingroom/IMG_7081_Edited_oim54a.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761476/saytech/living%20room/IMG_7089_puoyef.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"
@@ -123,7 +123,7 @@ const livingroom = () => {
               className="carousel-item relative w-full h-[300px] md:h-[400px] xl:h-[500px]"
             >
               <Image
-                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1663757922/livingroom/IMG_7070_ymmxpo.jpg"
+                src="https://res.cloudinary.com/dhhcantbj/image/upload/v1675761477/saytech/living%20room/6cc8142f-cd84-4b06-b8f7-fe1a2802465a_v8qtpk.jpg"
                 layout="fill"
                 alt=""
                 objectFit="cover"

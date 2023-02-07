@@ -27,14 +27,22 @@ const NavBar = () => {
                 </div>
                 <ul className="mt-[3rem] flex flex-col items-center gap-[2rem] ">
                   <Link href="/">
-                    <li className={router.pathname == "/" ? activeLink : ""}>
+                    <li
+                      className={
+                        router.pathname == "/" ? activeLink : "cursor-pointer"
+                      }
+                    >
                       Home
                     </li>
                   </Link>
 
                   <Link href="/about">
                     <li
-                      className={router.pathname == "/about" ? activeLink : ""}
+                      className={
+                        router.pathname == "/about"
+                          ? activeLink
+                          : "cursor-pointer"
+                      }
                     >
                       About
                     </li>
@@ -43,7 +51,9 @@ const NavBar = () => {
                   <Link href="/services">
                     <li
                       className={
-                        router.pathname == "/services" ? activeLink : ""
+                        router.pathname == "/services"
+                          ? activeLink
+                          : "cursor-pointer"
                       }
                     >
                       Our Services
@@ -53,7 +63,9 @@ const NavBar = () => {
                   <Link href="/furnitures">
                     <li
                       className={
-                        router.pathname == "/furnitures" ? activeLink : ""
+                        router.pathname == "/furnitures"
+                          ? activeLink
+                          : "cursor-pointer"
                       }
                     >
                       Saytech Furnitures
@@ -63,7 +75,9 @@ const NavBar = () => {
                   <Link href="/saytechInteriors">
                     <li
                       className={
-                        router.pathname == "/saytechInteriors" ? activeLink : ""
+                        router.pathname == "/saytechInteriors"
+                          ? activeLink
+                          : "cursor-pointer"
                       }
                     >
                       Saytech Interiors
